@@ -27,5 +27,11 @@ namespace CNIT255_Project
             MessageBox.Show("The calculations are complete", "My Application",
             MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("My head hurts", "My Application",
+            MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk);
+        }
     }
 }
