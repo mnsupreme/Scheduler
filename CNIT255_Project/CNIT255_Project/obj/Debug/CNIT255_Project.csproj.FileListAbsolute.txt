@@ -13,7 +13,6 @@ C:\Users\Brian\Documents\GitHub\Scheduler\CNIT255_Project\CNIT255_Project\obj\De
 C:\Users\Brian\Documents\GitHub\Scheduler\CNIT255_Project\CNIT255_Project\bin\Debug\CNIT255_Project.exe
 C:\Users\Brian\Documents\GitHub\Scheduler\CNIT255_Project\CNIT255_Project\bin\Debug\CNIT255_Project.pdb
 C:\Users\Brian\Documents\GitHub\Scheduler\CNIT255_Project\CNIT255_Project\obj\Debug\CNIT255_Project.csprojResolveAssemblyReference.cache
-C:\Users\Brian\Documents\GitHub\Scheduler\CNIT255_Project\CNIT255_Project\obj\Debug\CNIT255_Project.Form1.resources
 C:\Users\Brian\Documents\GitHub\Scheduler\CNIT255_Project\CNIT255_Project\obj\Debug\CNIT255_Project.Properties.Resources.resources
 C:\Users\Brian\Documents\GitHub\Scheduler\CNIT255_Project\CNIT255_Project\obj\Debug\CNIT255_Project.csproj.GenerateResource.Cache
 C:\Users\Yu\OneDrive\Documents\Scheduler\CNIT255_Project\CNIT255_Project\bin\Debug\CNIT255_Project.exe.config
@@ -24,3 +23,4 @@ C:\Users\Yu\OneDrive\Documents\Scheduler\CNIT255_Project\CNIT255_Project\obj\Deb
 C:\Users\Yu\OneDrive\Documents\Scheduler\CNIT255_Project\CNIT255_Project\obj\Debug\CNIT255_Project.csproj.GenerateResource.Cache
 C:\Users\Yu\OneDrive\Documents\Scheduler\CNIT255_Project\CNIT255_Project\obj\Debug\CNIT255_Project.exe
 C:\Users\Yu\OneDrive\Documents\Scheduler\CNIT255_Project\CNIT255_Project\obj\Debug\CNIT255_Project.pdb
+C:\Users\Brian\Documents\GitHub\Scheduler\CNIT255_Project\CNIT255_Project\obj\Debug\CNIT255_Project.StarvingBoiler_Form.resources
