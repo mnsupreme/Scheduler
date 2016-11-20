@@ -45,5 +45,16 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+<<<<<<< HEAD
+*.cache
+*.pdb
+CNIT255_Project/CNIT255_Project/obj/Debug/CNIT255_Project.exe
+CNIT255_Project/CNIT255_Project/obj/Debug/CNIT255_Project.csproj.FileListAbsolute.txt
+CNIT255_Project/CNIT255_Project/bin/Debug/CNIT255_Project.pdb
+CNIT255_Project/CNIT255_Project/bin/Debug/CNIT255_Project.exe
+CNIT255_Project/CNIT255_Project/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+*.cache
+=======
 *.txt
 CNIT255_Project/CNIT255_Project/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+>>>>>>> refs/remotes/origin/master
