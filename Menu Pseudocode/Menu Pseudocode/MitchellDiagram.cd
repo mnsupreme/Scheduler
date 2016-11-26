@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Items will be split up into subclasses that will be &quot;tagged&quot; in a way that allows the Menu display to order them in a certain way.">
+    <Position X="3.056" Y="3.344" Height="1.156" Width="1.7" />
+  </Comment>
+  <Class Name="Menu_Pseudocode.User">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Menu_Pseudocode.Owner">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAgAAAAAAAAAAgAAAAAAAAAAAAAAAAggQBAAAAAAA=</HashCode>
+      <FileName>Owner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Menu_Pseudocode.Restaurant">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAQACAQAEAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Restaurant.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Owner" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Menu_Pseudocode.Menu">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAAAAAAAAAgAACAAAAAAAAAAAAAAgAAAAAAAEA=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Restaurant" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Menu_Pseudocode.timeSlotMenu">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQACAAAAAAAAAAAA=</HashCode>
+      <FileName>timeSlotMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Menu_Pseudocode.Item">
+    <Position X="5" Y="2.75" Width="1.5" />
+    <AssociationLine Name="Menu" Type="Menu_Pseudocode.Menu" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="3" />
+        <Point X="6.875" Y="3" />
+        <Point X="6.875" Y="1.438" />
+        <Point X="7.75" Y="1.438" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.143" Y="-0.338" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAADAAAABAAAAAAAIABAAQAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Item.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Menu" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Menu_Pseudocode.Beverage">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <AssociationLine Name="Item" Type="Menu_Pseudocode.Item">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.068" Y="0.164" Height="0.182" Width="0.683" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entree.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Item" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Menu_Pseudocode.Entree" Collapsed="true">
+    <Position X="7" Y="4" Width="1.5" />
+    <InheritanceLine Type="Menu_Pseudocode.Item" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.75" Y="5.074" />
+        <Point X="5.75" Y="5.314" />
+        <Point X="6.76" Y="5.314" />
+        <Point X="6.76" Y="4.25" />
+        <Point X="7" Y="4.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Menu_Pseudocode.Side">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Side.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Menu_Pseudocode.Dessert">
+    <Position X="4.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dessert.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Menu_Pseudocode.Appetizer">
+    <Position X="7" Y="5" Width="1.5" />
+    <InheritanceLine Type="Menu_Pseudocode.Item" FixedToPoint="true">
+      <Path>
+        <Point X="5.75" Y="5.074" />
+        <Point X="5.75" Y="5.312" />
+        <Point X="7" Y="5.312" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Appetizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
