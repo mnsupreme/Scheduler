@@ -50,5 +50,10 @@ namespace CNIT255_Project
         {
             System.Windows.Forms.Application.Exit();
         }
+
+        private void label_Customer_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

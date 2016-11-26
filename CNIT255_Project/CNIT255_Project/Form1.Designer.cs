@@ -80,7 +80,7 @@
             "Rest_2",
             "..."});
             this.listBox_Rest.Location = new System.Drawing.Point(25, 112);
-            this.listBox_Rest.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listBox_Rest.Margin = new System.Windows.Forms.Padding(4);
             this.listBox_Rest.Name = "listBox_Rest";
             this.listBox_Rest.Size = new System.Drawing.Size(317, 188);
             this.listBox_Rest.TabIndex = 1;
@@ -138,6 +138,7 @@
             this.label_Customer.TabIndex = 5;
             this.label_Customer.Text = "Customer";
             this.label_Customer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label_Customer.Click += new System.EventHandler(this.label_Customer_Click);
             // 
             // checkBox9
             // 
@@ -360,7 +361,7 @@
             this.Controls.Add(this.label_Title);
             this.Controls.Add(this.Label_frm);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "StarvingBoiler_Form";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

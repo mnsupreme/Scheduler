@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CNIT255_Project
 {
-    public class Rest_of_day_menu : Menu
+    public class Dessert : Item
     {
     }
 }

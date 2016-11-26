@@ -1,3 +1,4 @@
 c:\users\alex\documents\visual studio 2015\Projects\Menu Pseudocode\Menu Pseudocode\bin\Debug\Menu Pseudocode.exe.config
 W:\CNIT 255\Menu Pseudocode\Menu Pseudocode\bin\Debug\Menu Pseudocode.exe.config
 Z:\CNIT 255\Menu Pseudocode\Menu Pseudocode\bin\Debug\Menu Pseudocode.exe.config
+C:\Users\Alex\Documents\GitHub\Scheduler\Menu Pseudocode\Menu Pseudocode\bin\Debug\Menu Pseudocode.exe.config
