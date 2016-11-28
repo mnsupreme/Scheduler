@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Breakfast_menu.cs" />
     <Compile Include="Customer.cs" />
+    <Compile Include="Database.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
