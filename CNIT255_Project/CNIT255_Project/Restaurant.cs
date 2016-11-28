@@ -18,17 +18,5 @@ namespace CNIT255_Project
             {
             }
         }
-
-        public User User
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-
-            set
-            {
-            }
-        }
     }
 }

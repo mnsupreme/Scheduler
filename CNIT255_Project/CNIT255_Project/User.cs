@@ -13,5 +13,21 @@ namespace CNIT255_Project
         private string email;
         private string phoneNum;
         private string PUID;
+
+        public string getEmail()
+        {
+            return this.email;
+        }
+        public Restaurant Restaurant
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
+        }
     }
 }

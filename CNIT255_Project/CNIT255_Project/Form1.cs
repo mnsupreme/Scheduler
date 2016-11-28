@@ -46,9 +46,17 @@ namespace CNIT255_Project
             Form_VisualCali();
         }
 
+       
+       
+
         private void label1_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Application.Exit();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
