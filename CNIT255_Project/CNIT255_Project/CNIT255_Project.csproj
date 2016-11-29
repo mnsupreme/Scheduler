@@ -65,8 +65,12 @@
     <Compile Include="Appetizer.cs" />
     <Compile Include="Beverage.cs" />
     <Compile Include="Customer.cs" />
+<<<<<<< HEAD
     <Compile Include="Dessert.cs" />
     <Compile Include="Entree.cs" />
+=======
+    <Compile Include="Database.cs" />
+>>>>>>> origin/AMCoding
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

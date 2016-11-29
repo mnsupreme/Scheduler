@@ -7,6 +7,7 @@ namespace CNIT255_Project
 {
     public class Restaurant
     {
+<<<<<<< HEAD
         /// <summary>
         /// This may be removed--or at least changed from a string
         /// </summary>
@@ -26,6 +27,9 @@ namespace CNIT255_Project
         private int ratingCount;
 
         public Owner Owner
+=======
+        public Menu Menu
+>>>>>>> origin/AMCoding
         {
             get
             {

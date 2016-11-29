@@ -6,9 +6,16 @@
   <Class Name="CNIT255_Project.User">
     <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
+<<<<<<< HEAD
       <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAEAAAAAAAAEA=</HashCode>
+=======
+      <HashCode>IAAAAAAAAABAAAggAAAAAAIAAAAAAAAAAAAACIAAABA=</HashCode>
+>>>>>>> origin/AMCoding
       <FileName>User.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Restaurant" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="CNIT255_Project.Owner">
     <Position X="0.5" Y="2.5" Width="1.5" />
@@ -31,11 +38,19 @@
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
+<<<<<<< HEAD
       <HashCode>AAAAAACAAAAAAAAAAAAAAQACAQAEAAAAAAIAAAAAAAA=</HashCode>
       <FileName>Restaurant.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Owner" />
+=======
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Restaurant.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Menu" />
+>>>>>>> origin/AMCoding
     </ShowAsAssociation>
   </Class>
   <Class Name="CNIT255_Project.Menu">
@@ -124,6 +139,26 @@
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Appetizer.cs</FileName>
     </TypeIdentifier>
+  </Class>
+  <Class Name="CNIT255_Project.Database">
+    <Position X="6.75" Y="5" Width="1.5" />
+    <AssociationLine Name="User" Type="CNIT255_Project.User" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.875" Y="5" />
+        <Point X="6.875" Y="4.133" />
+        <Point X="5.958" Y="4.133" />
+        <Point X="5.958" Y="2.728" />
+        <Point X="4.5" Y="2.728" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAABACAAABAAAAAAAAAJAAAAAAAIAAAAAAAAIBAAAgA=</HashCode>
+      <FileName>Database.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="User" />
+      <Property Name="Menu" />
+    </ShowAsAssociation>
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

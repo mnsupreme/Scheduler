@@ -46,12 +46,19 @@ namespace CNIT255_Project
             Form_VisualCali();
         }
 
+       
+       
+
         private void label1_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Application.Exit();
         }
 
+<<<<<<< HEAD
         private void label_Customer_Click(object sender, EventArgs e)
+=======
+        private void button1_Click(object sender, EventArgs e)
+>>>>>>> origin/AMCoding
         {
 
         }
